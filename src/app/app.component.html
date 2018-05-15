@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+	<h1 class="title">
+		吃什么？
+	</h1>
+	<button class="my-btn" [class.hide-btn]="disabled" (click)="getRandom()" *ngIf="show_list" [disabled]="disabled">随机一波</button>
+	<div *ngIf="show_list" class="row">
+		<div *ngFor="let food of foods;let k = index" class="col-sm-3 m-t-md">
+			<a href="javascript:void(0)" class="food-item" [class.active]="k===active">
+				<div>{{food.name}}</div>
+			</a>
+		</div>
+	</div>
+	<div *ngIf="!show_list" class="row">
+		 <div class="col-sm-4 offset-sm-4">
+		 	<h2 class="title">今天给你推荐的是：</h2>
+			<a href="https://www.ele.me/shop/{{choose_food.id}}" class="food-item active" target="_blank">
+				<div>{{choose_food.name}}</div>
+				<div>{{choose_food.phone}}</div>
+				<div>{{choose_food.piecewise_agent_fee.description}}</div>
+				<div>{{choose_food.address}}</div>
+			</a>
+		</div>
+	</div>
+</div>
+
