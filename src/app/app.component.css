@@ -24,25 +24,20 @@
 .my-btn{
 	border-style: solid;
 	border-width: 0;
-	border-radius: 5px;
+	border-radius: 100%;
 	cursor: pointer;
-	font-family: inherit;
 	font-weight: bold;
-	line-height: normal;
-	margin: 0 0 1.25em;
-	position: relative;
-	text-decoration: none;
-	text-align: center;
-	display: inline-block;
+	margin: 100px 0;
 	padding-top: 0.75em;
 	padding-right: 1.5em;
 	padding-bottom: 0.8125em;
 	padding-left: 1.5em;
-	font-size: 1em;
+	font-size: 3em;
 	background-color: #adc708;
 	border-color: #829606;	
 	color: white;
-	height: 47px;
+	height: 250px;
+	width: 250px;
 	-webkit-animation-name: greenPulse;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: infinite;
@@ -56,6 +51,7 @@
 	border:1px solid #adc708;
 	display: block;
 	text-decoration: none;
+	padding: 10px;
 }
 .active{
 	-webkit-animation-name: greenPulse;

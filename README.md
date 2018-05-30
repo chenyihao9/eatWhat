@@ -1,3 +1,6 @@
+# 项目初衷
+点外卖的时候，吃什么往往困扰我们好久，使用本应用可以帮你随机选择附近的一个餐馆，然后开始点餐。
+
 # EatWhat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
